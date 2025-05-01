@@ -1,0 +1,133 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ARYA1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //TAMRIN 1 -- 219//
+            Console.WriteLine("a, b, c, VARDESC kon");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+            
+            int delta = b*b -4 * a*c ;
+            Console.WriteLine(delta);
+        }
+    }
+}
+//TAMRIN 2   219//
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Arya2
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(" 3 ta adad vard kon ");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+
+            int meangin = (a + b + c) / 3;
+            Console.WriteLine(meangin);
+        }
+    }
+}
+//TAMRIN 3 219 //
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Arya_3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("hogog ra vared koned");
+                int a = int.Parse(Console.ReadLine());
+
+            double hogoh = a /97 ;
+
+            Console.WriteLine(hogoh);
+
+        }
+    }
+}
+//TAMRIN 4   219//
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace arya4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("tedade honargo ha");
+
+            int a= int.Parse(Console.ReadLine());
+
+            int gorooh = a / 3 ;
+
+            int bagimande = a % 3;
+
+
+            Console.WriteLine(gorooh);
+            Console.WriteLine(bagimande);
+        }
+    }
+}
+//TAMRIN 5//
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace arya5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("tedad dars ha");
+            int dars = int.Parse(Console.ReadLine());
+            int vahed = 0;
+            int nomer = 0;
+
+            for (int i = 1; i <= dars; i++) 
+            {
+                Console.WriteLine("vahed =");
+                int a = int.Parse(Console.ReadLine());
+                Console.WriteLine("nomre =");
+                int b = int.Parse(Console.ReadLine());
+                nomer = a * b;
+                vahed = b;
+
+            }
+            Console.WriteLine("moadel");
+            int f = (int)nomer / vahed;
+            Console.WriteLine(f);
+            
+        }
+    }
+}
+
